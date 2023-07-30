@@ -10,8 +10,8 @@ def main():
             else:
                current_elf += int(line)
         counts.sort(reverse=True)
-        print(counts)
-        print(counts[0])
+        top_3 = sum(counts[:3])
+        print(top_3)
            
 
 if __name__ == "__main__":
